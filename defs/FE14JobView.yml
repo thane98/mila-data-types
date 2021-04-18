@@ -1,0 +1,82 @@
+---
+name: FE14JobView
+fields:
+  - id: bitflags
+    type: bytes
+    length: 8
+  - id: jid
+    type: required_string
+  - id: fid
+    type: string
+  - id: name
+    type: string
+  - id: description
+    type: string
+  - id: id
+    type: u16
+  - id: special_flags_1
+    type: u8
+  - id: special_flags_2
+    type: u8
+  - id: bases
+    type: bytes
+    length: 8
+  - id: player_growths
+    type: bytes
+    length: 8
+  - id: enemy_growths
+    type: bytes
+    length: 8
+  - id: max_stats
+    type: bytes
+    length: 8
+  - id: pair_up_bonuses
+    type: bytes
+    length: 8
+  - id: max_weapon_ranks
+    type: bytes
+    length: 8
+  - id: hit
+    type: i16
+  - id: crit
+    type: i16
+  - id: avoid
+    type: i16
+  - id: dodge
+    type: i16
+  - id: skills
+    type: u16_vec
+    length: 4
+  - id: mov_cost_table_entry
+    type: u8
+  - id: mov
+    type: u8
+  - id: smoke_clouds_size
+    type: u8
+  - id: extra_flags
+    type: u8
+  - id: movement_sound
+    type: string
+  - id: advanced_classes
+    type: u16_vec
+    length: 2
+  - id: base_classes
+    type: u16_vec
+    length: 2
+  - id: unknown
+    type: bytes
+    length: 4
+  - id: gender_equivalent_class
+    type: u16
+  - id: parallel_class
+    type: u16
+  - id: origin
+    type: u8
+  - id: unknown_2
+    type: bytes
+    length: 6
+  - id: dlc_skill_index
+    type: u8
+  - id: unknown_3
+    type: bytes
+    length: 4

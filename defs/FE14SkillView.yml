@@ -1,0 +1,32 @@
+---
+name: FE14SkillView
+fields:
+  - id: seid
+    type: required_string
+  - id: name
+    type: string
+  - id: description
+    type: string
+  - id: effect
+    type: string
+  - id: id
+    type: u16
+  - id: sort_order
+    type: i16
+  - id: icon
+    type: u16
+  - id: stat
+    type: u8
+  - id: trigger_factor
+    type: u8
+  - id: trigger_divisor
+    type: u8
+  - id: unknown
+    type: u8
+  - id: base_price
+    type: i16
+  - id: unknown_2
+    type: u8
+  - id: padding
+    type: bytes
+    length: 3

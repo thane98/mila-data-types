@@ -1,0 +1,39 @@
+---
+name: FE14ChapterView
+fields:
+  - id: cid
+    type: required_string
+  - id: battlefield
+    type: string
+  - id: id
+    type: u8
+  - id: chapter_type
+    type: u8
+  - id: birthright_next_chapter
+    type: u8
+  - id: conquest_next_chapter
+    type: u8
+  - id: revelation_next_chapter
+    type: u8
+  - id: birthright_requirement
+    type: u8
+  - id: conquest_requirement
+    type: u8
+  - id: revelation_requirement
+    type: u8
+  - id: married_character
+    type: u16
+  - id: offspring_seal_level
+    type: u8
+  - id: offspring_seal_level_2
+    type: u8
+  - id: route
+    type: u8
+  - id: unknown
+    type: bytes
+    length: 3
+  - id: battle_prep_screen
+    type: u8
+  - id: unknown_2
+    type: bytes
+    length: 3

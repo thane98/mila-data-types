@@ -1,0 +1,92 @@
+---
+name: FE14SpawnView
+fields:
+  - id: pid
+    type: required_string
+  - id: unknown_1
+    type: bytes
+    length: 4
+  - id: team
+    type: u8
+  - id: level
+    type: i8
+  - id: coord_1
+    type: bytes
+    length: 2
+  - id: coord_2
+    type: bytes
+    length: 2
+  - id: unknown_2
+    type: bytes
+    length: 2
+  - id: spawn_flags
+    type: u8
+  - id: spawn_flags_2
+    type: u8
+  - id: spawn_flags_3
+    type: u8
+  - id: spawn_flags_4
+    type: u8
+  - id: item_1
+    type: string
+  - id: item_flags_1
+    type: bytes
+    length: 4
+  - id: item_2
+    type: string
+  - id: item_flags_2
+    type: bytes
+    length: 4
+  - id: item_3
+    type: string
+  - id: item_flags_3
+    type: bytes
+    length: 4
+  - id: item_4
+    type: string
+  - id: item_flags_4
+    type: bytes
+    length: 4
+  - id: item_5
+    type: string
+  - id: item_flags_5
+    type: bytes
+    length: 4
+  - id: skill_1
+    type: string
+  - id: skill_2
+    type: string
+  - id: skill_3
+    type: string
+  - id: skill_4
+    type: string
+  - id: skill_5
+    type: string
+  - id: skill_flags
+    type: bytes
+    length: 4
+  - id: ai_action
+    type: string
+  - id: ai_action_parameter
+    type: string
+  - id: ai_mission
+    type: string
+  - id: ai_mission_parameter
+    type: string
+  - id: ai_attack
+    type: string
+  - id: ai_attack_parameter
+    type: string
+  - id: ai_movement
+    type: string
+  - id: ai_movement_parameter
+    type: string
+  - id: ai_unknown_1
+    type: bytes
+    length: 8
+  - id: ai_unknown_2
+    type: bytes
+    length: 8
+  - id: ai_unknown_3
+    type: bytes
+    length: 8

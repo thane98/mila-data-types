@@ -1,0 +1,97 @@
+---
+name: FE14CharacterView
+fields:
+  - id: bitflags
+    type: bytes
+    length: 8
+  - id: pid
+    type: required_string
+  - id: fid
+    type: string
+  - id: aid
+    type: string
+  - id: name
+    type: string
+  - id: description
+    type: string
+  - id: pointers
+    type: bytes
+    length: 8
+  - id: id
+    type: u16
+  - id: support_route
+    type: u8
+  - id: army
+    type: u8
+  - id: replacing
+    type: u16
+  - id: parent
+    type: u16
+  - id: classes
+    type: u16_vec
+    length: 2
+  - id: support_id
+    type: i16
+  - id: level
+    type: i8
+  - id: internal_level
+    type: i8
+  - id: enemy_flag
+    type: u8
+  - id: unknown
+    type: bytes
+    length: 3
+  - id: bases
+    type: bytes
+    length: 8
+  - id: growths
+    type: bytes
+    length: 8
+  - id: modifiers
+    type: bytes
+    length: 8
+  - id: penalties
+    type: bytes
+    length: 8
+  - id: bonuses
+    type: bytes
+    length: 8
+  - id: weapon_ranks
+    type: bytes
+    length: 8
+  - id: skills
+    type: u16_vec
+    length: 5
+  - id: skill_flags
+    type: bytes
+    length: 2
+  - id: personal_skills
+    type: u16_vec
+    length: 3
+  - id: birthday
+    type: bytes
+    length: 2
+  - id: reclass_1
+    type: u16_vec
+    length: 2
+  - id: parent_id
+    type: u16
+  - id: child_id
+    type: u16
+  - id: support_index
+    type: i16
+  - id: level_cap
+    type: u8
+  - id: body_type
+    type: u8
+  - id: combat_music
+    type: string
+  - id: voice
+    type: string
+  - id: recruit_equip_weapon
+    type: u16
+  - id: special_shop_item
+    type: u16
+  - id: padding
+    type: bytes
+    length: 4

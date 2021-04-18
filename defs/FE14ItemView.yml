@@ -1,0 +1,100 @@
+---
+name: FE14ItemView
+fields:
+  - id: bitflags
+    type: bytes
+    length: 8
+  - id: iid
+    type: required_string
+  - id: name
+    type: string
+  - id: description
+    type: string
+  - id: id
+    type: u16
+  - id: item_list_position
+    type: u16
+  - id: icon
+    type: u16
+  - id: weapon_category
+    type: u8
+  - id: non_weapon_category
+    type: u8
+  - id: required_weapon_exp
+    type: u8
+  - id: base_staff_exp
+    type: u8
+  - id: uses
+    type: i8
+  - id: mt
+    type: i8
+  - id: hit
+    type: i16
+  - id: crit
+    type: i16
+  - id: avoid
+    type: i16
+  - id: dodge
+    type: i16
+  - id: min_range
+    type: i8
+  - id: max_range
+    type: i8
+  - id: effective_speed_player_phase
+    type: i8
+  - id: effective_speed_enemy_phase
+    type: i8
+  - id: buy_price
+    type: i32
+  - id: sell_price
+    type: i32
+  - id: effective_damage_1
+    type: u8
+  - id: effective_damage_2
+    type: u8
+  - id: mov
+    type: u8
+  - id: legal_player_weapon
+    type: u8
+  - id: bonuses
+    type: bytes
+    length: 8
+  - id: extra_data
+    type: bytes
+    length: 8
+  - id: forge_table_index
+    type: u8
+  - id: unknown
+    type: u8
+  - id: skirmish_item_drop
+    type: u8
+  - id: unknown_2
+    type: u8
+  - id: dawn_stock
+    type: bytes
+    length: 3
+  - id: dusk_stock
+    type: bytes
+    length: 3
+  - id: rod_stock
+    type: bytes
+    length: 3
+  - id: staff_stock
+    type: bytes
+    length: 3
+  - id: hoshido_event
+    type: i8
+  - id: nohr_event
+    type: i8
+  - id: dawn_lottery
+    type: i8
+  - id: dusk_lottery
+    type: i8
+  - id: my_castle_unknowns
+    type: bytes
+    length: 4
+  - id: com
+    type: string
+  - id: unknown_3
+    type: bytes
+    length: 4
